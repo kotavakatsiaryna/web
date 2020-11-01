@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c284c28-d80b-4fc0-b76e-da59b3257cca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectId" id="1jJqElMW1xK6TVA8W1CJK2wqVrJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\site\.idea" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c284c28-d80b-4fc0-b76e-da59b3257cca" name="Default Changelist" comment="" />
+      <created>1560254556256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560254556256</updated>
+      <workItem from="1560254557720" duration="433000" />
+      <workItem from="1560255010625" duration="8302000" />
+      <workItem from="1560326056985" duration="20018000" />
+      <workItem from="1560425408358" duration="3788000" />
+      <workItem from="1560497107864" duration="10406000" />
+      <workItem from="1560772302191" duration="4242000" />
+      <workItem from="1560841921782" duration="9328000" />
+      <workItem from="1560942852868" duration="1029000" />
+      <workItem from="1560947278527" duration="4240000" />
+      <workItem from="1561014411156" duration="7852000" />
+      <workItem from="1561101204382" duration="10365000" />
+      <workItem from="1561361306020" duration="18900000" />
+      <workItem from="1561463905429" duration="11268000" />
+      <workItem from="1561533441372" duration="8081000" />
+      <workItem from="1561550381844" duration="3664000" />
+      <workItem from="1561637926373" duration="7532000" />
+      <workItem from="1561706126869" duration="12525000" />
+      <workItem from="1561964900057" duration="2073000" />
+      <workItem from="1603097943660" duration="787000" />
+      <workItem from="1603270863880" duration="1382000" />
+      <workItem from="1603532434038" duration="383000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en">
+<head>
+    <title>Order now</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="nav font-weight-bold">
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html#features">Key features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html#camera">Camera Tests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html#price">Price</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="order.html">Order now</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-lg-6 col-12 align-self-center">
+            <div class="mr-md-3 px-3 text-center overflow-hidden text-dark">
+                <div class="my-auto font-weight-bold">
+                    <h1 class="my-5 pt-5">Fill in the form to order new Pixel 5</h1>
+                    <form class="mx-auto" id="order" action="confirmation.html">
+                        <h5>Select color:</h5>
+                        <div class="form-group">
+                            <select class="form-control" id="color">
+                                <option>Just Black</option>
+                                <option>Sorta Sage</option>
+                            </select>
+                        </div>
+                        <h5 class="pt-4">Select additional items:</h5>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="check1" value="Google Pixel 5 Case ($40)">
+                            <label class="form-check-label" for="check1">Google Pixel 5 Case ($40)</label>
+                        </div>
+                        <div class="form-check form-check-inline pb-3">
+                            <input class="form-check-input" type="checkbox" id="check2" value="Pixel Earbuds ($70)">
+                            <label class="form-check-label" for="check2">Pixel Earbuds ($70)</label>
+                        </div>
+                        <h3 class="pt-5 pb-3">Please provide contact information</h3>
+                        <input class="form-control" type="text" id="name" placeholder="Name...*" maxlength="40" required>
+                        <h5 class="pt-4">Gender*:</h5>
+                        <div class="form-check form-check-inline pb-4">
+                            <input class="form-check-input" type="radio" name="gender" id="gender1" value="Female">
+                            <label class="form-check-label" for="gender1">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline pb-4">
+                            <input class="form-check-input" type="radio" name="gender" id="gender2" value="Male">
+                            <label class="form-check-label" for="gender2">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline pb-4">
+                            <input class="form-check-input" type="radio" name="gender" id="gender3" value="Other" checked>
+                            <label class="form-check-label" for="gender3">Other</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="details" rows="3" placeholder="Order details (address, tel number etc.)*" maxlength="1500" required></textarea>
+                        </div>
+                        <button type="submit" class="btn mb-3" style="color: black; border: 2px solid black;" onclick="e()">Submit order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 col-12">
+            <div class="mr-md-3 px-3 px-md-5 text-center overflow-hidden">
+                <img src="../Images/image_4.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-6 col-sm-12 d-flex justify-content-center">
+                <h6 class="font-weight-bold py-3">© 2020 iTechArt. All rights reserved.</h6>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                <a class="btn my-auto" href="#">Scroll up</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+   function e() {
+       let color = document.getElementById("color").value;
+       localStorage.setItem('color', color);
+       let name = document.getElementById("name").value;
+       localStorage.setItem('name', name);
+       let details = document.getElementById("details").value;
+       localStorage.setItem('details', details);
+       if (document.getElementById('gender1').checked) {
+           let gender = document.getElementById('gender1').value;
+           localStorage.setItem('gender', gender);
+       } else if (document.getElementById('gender2').checked) {
+           let gender = document.getElementById('gender2').value;
+           localStorage.setItem('gender', gender);
+       } else {
+           let gender = document.getElementById('gender3').value;
+           localStorage.setItem('gender', gender);
+       }
+       if (document.getElementById('check1').checked) {
+           let add1 = document.getElementById('check1').value;
+           localStorage.setItem('add1', add1);
+       }
+       if (document.getElementById('check2').checked) {
+           let add2 = document.getElementById('check2').value;
+           localStorage.setItem('add2', add2);
+       }
+   }
+</script>
+</body>
+</html>
